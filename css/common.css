@@ -12,3 +12,20 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+/**
+ |============================
+ | TASK-2
+ |============================
+*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  row-gap: 48px;
+}
+
+.gallery img {
+  max-width: 360px;
+  height: 100%;
+}
